@@ -1,3 +1,4 @@
+// This file makes it so that something happens while the connection is offline
 const FILES_TO_CACHE = [
     "/",
     "/database.js",
@@ -30,7 +31,7 @@ self.addEventListener("activate", function (event) {
                     if (key !== CACHE_NAME && key !== DATA_CACHE_NAME) {
                         console.log("Removing old cache data", key);
                         return caches.delete(key);
-                    }
+                    };
                 })
             );
         })
