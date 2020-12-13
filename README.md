@@ -6,7 +6,16 @@ This is the homework for week eighteen. The purpose is to create an application 
 
 ## Installation
 
+In the terminal, use the following commands:
+
+* `npm install express`
+* `npm install morgan`
+* `npm install mongoose`
+* `npm install compression`
+
 ## Screenshots
+
+![Screenshot](Develop/public/assets/images/Screenshot.png)
 
 ## Links
 
